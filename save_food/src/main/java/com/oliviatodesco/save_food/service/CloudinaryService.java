@@ -26,13 +26,24 @@ public class CloudinaryService implements ICloudinaryService {
     @Value("${cloudinary.api_secret}")
     private String apiSecret;
 
-    public CloudinaryService() {
+   /* public CloudinaryService() {
         Map<String, String> valuesMap = new HashMap<>();
         valuesMap.put("cloud_name", cloudName);
         valuesMap.put("api_key", apiKey);
         valuesMap.put("api_secret", apiSecret);
         cloudinary = new Cloudinary(valuesMap);
-    }
+    }*/
+   public CloudinaryService(
+           @Value("${cloudinary.cloud_name}") String cloudName,
+           @Value("${cloudinary.api_key}") String apiKey,
+           @Value("${cloudinary.api_secret}") String apiSecret) {
+
+       Map<String, String> valuesMap = new HashMap<>();
+       valuesMap.put("cloud_name", cloudName);
+       valuesMap.put("api_key", apiKey);
+       valuesMap.put("api_secret", apiSecret);
+       cloudinary = new Cloudinary(valuesMap);
+   }
 
     @Override
     public Map upload(MultipartFile multipartFile) throws IOException {

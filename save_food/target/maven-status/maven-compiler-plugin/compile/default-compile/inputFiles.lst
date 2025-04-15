@@ -1,12 +1,37 @@
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\model\Image.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\repository\ImageRepository.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\service\ImageService.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\service\CloudinaryService.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\service\ICloudinaryService.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\controller\FoodController.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\service\IImageService.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\service\FoodService.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\service\IFoodService.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\model\Food.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\repository\FoodRepository.java
-D:\University\SEMINARIOS\ANGULAR\crud angular spring\save_food\save_food\src\main\java\com\oliviatodesco\save_food\SaveFoodApplication.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\dto\AuthLoginRequestDTO.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\repository\IRoleRepository.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\repository\IUserRepository.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\config\WebConfig.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\model\Role.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\RoleService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\PermissionService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\UserDetailsServiceImp.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\ImageService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\dto\LinkDTO.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\IRoleService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\model\UserSec.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\controller\PermissionController.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\model\Image.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\repository\ImageRepository.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\model\Food.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\utils\JwtUtils.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\config\SecurityConfig.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\controller\RoleController.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\ICloudinaryService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\config\filter\JwtTokenValidator.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\controller\UserController.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\FoodService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\IUserSecService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\repository\IPermissionRepository.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\model\Permission.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\repository\FoodRepository.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\CloudinaryService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\IFoodService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\dto\AuthResponseDTO.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\dto\RegisterUserDto.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\IImageService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\SaveFoodApplication.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\IPermissionService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\controller\FoodController.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\service\UserSecService.java
+D:\Web\Mis Proyectos\SaveFood\SaveFood-Backend-main\save_food\src\main\java\com\oliviatodesco\save_food\controller\AuthenticationController.java

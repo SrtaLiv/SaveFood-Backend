@@ -2,7 +2,10 @@ package com.oliviatodesco.save_food.service;
 
 import com.oliviatodesco.save_food.model.Food;
 import com.oliviatodesco.save_food.model.Image;
+import com.oliviatodesco.save_food.model.UserSec;
 import com.oliviatodesco.save_food.repository.FoodRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -12,8 +15,6 @@ import java.util.Optional;
 
 @Service
 public class FoodService implements IFoodService{
-    //@Autowired
-    //FoodRepository repository;
 
     // MEJOR FORMA DE HACERLA:
     private final FoodRepository foodRepository;
@@ -24,7 +25,6 @@ public class FoodService implements IFoodService{
         this.imagenService = imagenService;
     }
 
-
     //Cambio de metodos para incluir archivos
     @Override
     public Food save(Food food, MultipartFile file) throws IOException {
@@ -32,6 +32,15 @@ public class FoodService implements IFoodService{
             Image img = imagenService.uploadImagen(file);
             food.setImage(img);
         }
+
+        /*
+        // Obtener el usuario autenticado
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        if (principal instanceof UserSec) {
+            food.setUsuario((UserSec) principal);
+        } else {
+            throw new RuntimeException("No se pudo obtener el usuario autenticado");
+        }*/
         return foodRepository.save(food);
     }
 
@@ -54,8 +63,18 @@ public class FoodService implements IFoodService{
     }
 
     @Override
-    public Food updateFood(Food food){
-        return foodRepository.save(food);
+    public Food updateFood(Food food) {
+        Optional<Food> optionalFood = foodRepository.findById(food.getId());
+
+        if (optionalFood.isPresent()) {
+            Food existing = optionalFood.get();
+            existing.setName(food.getName());
+            existing.setMeal(food.getMeal());
+
+            return foodRepository.save(existing);
+        } else {
+            throw new RuntimeException("Food not found");
+        }
     }
 
     @Override
