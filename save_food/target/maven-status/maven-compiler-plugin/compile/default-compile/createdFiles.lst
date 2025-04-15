@@ -1,0 +1,12 @@
+com\oliviatodesco\save_food\service\ImageService.class
+com\oliviatodesco\save_food\controller\FoodController.class
+com\oliviatodesco\save_food\repository\ImageRepository.class
+com\oliviatodesco\save_food\service\IFoodService.class
+com\oliviatodesco\save_food\service\IImageService.class
+com\oliviatodesco\save_food\service\FoodService.class
+com\oliviatodesco\save_food\service\ICloudinaryService.class
+com\oliviatodesco\save_food\model\Food.class
+com\oliviatodesco\save_food\repository\FoodRepository.class
+com\oliviatodesco\save_food\model\Image.class
+com\oliviatodesco\save_food\SaveFoodApplication.class
+com\oliviatodesco\save_food\service\CloudinaryService.class
